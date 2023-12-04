@@ -89,22 +89,17 @@ body{
 
 /* Timer */
 .tick{
-    top: -73%;
+    top: -58%;
 }
 .timer{
-    padding: 20px 0px;
     position: relative;
     background-color: #0c131d;
 }
 
 /* Adjust the size of the FlipClock.js countdown */
 .tick-group {
-    font-size: 80px; /* Adjust the font size to make it smaller */
-  }
-
-  /* Add some minimal gap between the timer groups */
-  .tick-group:not(:last-child) {
-    margin: 0px 5px; /* Adjust the margin to your preference */
+    font-size: 80px;
+    margin: 0px 10px;
   }
 
   .tick {

@@ -13,6 +13,22 @@ body{
 .brand_color{
     color: #0f0 !important;
 }
+
+/* Custom styles for navbar menu items */
+.navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #0f0; 
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    color: #0f0;
+}
+
+
 .hero {
     position: relative;
     height: 100vh;
@@ -53,8 +69,8 @@ body{
     
 }
 .btn_cstm{
-    border: 1px solid #fff;
-    color: #fff;
+    border: 1px solid #0f0;
+    color: #0f0;
 }
 
 .btn_cstm:hover{

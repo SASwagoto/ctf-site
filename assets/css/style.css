@@ -56,3 +56,53 @@ body{
     background-color: #0f0;
     color: rgb(red, green, blue, 0)
 }
+
+/* Overview Part */
+
+.overview{
+    padding: 100px 0px;
+    color: #fff;
+}
+.overview_title{
+    text-align: center;
+    height: 200px;
+}
+.overview_title h2{
+    margin: auto 0px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+}
+
+.overview_cont p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+
+/* Timer */
+.tick{
+    top: -58%;
+}
+.timer{
+    position: relative;
+    background-color: #0c131d;
+}
+
+/* Adjust the size of the FlipClock.js countdown */
+.tick-group {
+    font-size: 80px;
+    margin: 0px 10px;
+  }
+
+  .tick {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px; /* Adjust the top padding to your preference */
+  }
+
+  .tick-flip-panel{
+    color: #0f0;
+  }
+
+  

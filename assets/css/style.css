@@ -7,13 +7,6 @@ body{
     background-color: rgb(30, 30, 30);
 }
 
-.clock {
-    width: 650px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-  }
   
 
 .hero {

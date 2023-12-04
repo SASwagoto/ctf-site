@@ -1,0 +1,24 @@
+.flip-clock {
+    display: flex;
+    font-family: 'Arial', sans-serif;
+    font-size: 2em;
+  }
+
+  .flip-unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+  }
+
+  .flip-digit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1.6em;
+    overflow: hidden;
+  }
+
+  .flip-digit span {
+    transition: transform 0.5s ease-in-out;
+  }

@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="assets/css/animate.min.css" />
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
-  <link rel="stylesheet" href="assets/vendor/flip/flip.min.css">
+  <link rel="stylesheet" href="assets/vendor/timer/timer.css">
 
   <link rel="stylesheet" href="assets/css/style.css">
 
@@ -18,7 +18,7 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="container">
+    <div class="container-fluid">
       <!-- Logo on the left -->
       <a class="navbar-brand" href="index.html">
         <img src="assets/images/UU.png" alt="Your Logo" height="40" />
@@ -65,7 +65,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
-          <div onmouseenter="revealAgain();">
+          <div class="hero_content" onmouseenter="revealAgain();">
             <h1 class="baffle-text">Welcome to Crack The Flag CTF Contest-2024</h1>
           </div>
         </div>
@@ -110,6 +110,31 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="flip-clock" id="flipClock">
+            <div class="flip-unit">
+              <div class="flip-digit" id="daysDigit1"><span>0</span></div>
+              <div class="flip-digit" id="daysDigit2"><span>0</span></div>
+              <div class="flip-label">Days</div>
+            </div>
+          
+            <div class="flip-unit">
+              <div class="flip-digit" id="hoursDigit1"><span>0</span></div>
+              <div class="flip-digit" id="hoursDigit2"><span>0</span></div>
+              <div class="flip-label">Hours</div>
+            </div>
+          
+            <div class="flip-unit">
+              <div class="flip-digit" id="minutesDigit1"><span>0</span></div>
+              <div class="flip-digit" id="minutesDigit2"><span>0</span></div>
+              <div class="flip-label">Minutes</div>
+            </div>
+          
+            <div class="flip-unit">
+              <div class="flip-digit" id="secondsDigit1"><span>0</span></div>
+              <div class="flip-digit" id="secondsDigit2"><span>0</span></div>
+              <div class="flip-label">Seconds</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -120,7 +145,7 @@
   <script src="assets/js/jquery-3.6.0.min.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
 
-  <script src="assets/vendor/flip/flip.min.js"></script>
+  <script src="assets/vendor/timer/timer.js"></script>
   <script src="assets/js/baffle.min.js"></script>
   <script src="assets/js/animation.js"></script>
   <script src="assets/js/custom.js"></script>

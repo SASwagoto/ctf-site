@@ -4,7 +4,7 @@
     outline: 0px;
 }
 body{
-    background-color: rgb(30, 30, 30);
+    background-color: #141D2B;
 }
 
 .hero {
@@ -110,3 +110,8 @@ body{
     display: none;
   }
 
+/* Event Part */
+.event{
+    background-color: #0c131d;
+    padding-bottom: 40px;
+}

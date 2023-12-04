@@ -7,6 +7,10 @@ body{
     background-color: #141D2B;
     font-family: monospace;
 }
+
+.bg_brand{
+    background-color: #141D2B;
+}
 .text_justify{
     text-align: justify;
 }

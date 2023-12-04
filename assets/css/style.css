@@ -4,17 +4,8 @@
     outline: 0px;
 }
 body{
-    background-color: #111927;
+    background-color: rgb(30, 30, 30);
 }
-
-.clock {
-    width: 650px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-  }
-  
 
 .hero {
     position: relative;
@@ -35,17 +26,19 @@ body{
     opacity: 0.3; /* Adjust the value (0.0 to 1.0) to control the overlay opacity */
     z-index: -1; /* Ensure the overlay is behind the content */
 }
-
+.hero_content{
+    margin: auto;
+}
 .baffle-text{
     font-family: monospace;
     font-size: 58px;
     color: #fff;
     font-weight: 700;
     position: absolute;
+    text-align: center;
     top: 50%;
-    left: 0;
-    padding: 0px 200px;
-    transform: translateY(-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .custom_btn{
     position: absolute;
@@ -112,8 +105,8 @@ body{
     color: #0f0;
   }
 
+
   .tick-credits{
     display: none;
   }
 
-  

@@ -88,17 +88,3 @@ body{
 }
 
 
-/* Timer */
-.timer{
-    padding: 20px 0px;
-    position: relative;
-}
-
-.tick {
-    font-size: 14px !important; /* Adjust the font size to make it smaller */
-  }
-
-  /* Change the color of the FlipClock.js countdown */
-  .flip-clock-wrapper {
-    color: #3498db !important; /* Change to your desired color */
-  }

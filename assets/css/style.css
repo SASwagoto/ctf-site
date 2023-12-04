@@ -5,6 +5,7 @@
 }
 body{
     background-color: #141D2B;
+    font-family: monospace;
 }
 
 .hero {
@@ -68,6 +69,8 @@ body{
     height: 200px;
 }
 .overview_title h2{
+    font-family: monospace;
+    font-weight: 800;
     margin: auto 0px;
     text-align: center;
     vertical-align: middle;
@@ -75,6 +78,7 @@ body{
 }
 
 .overview_cont p{
+    font-family: monospace;
     text-align: justify;
     font-size: 20px;
 }

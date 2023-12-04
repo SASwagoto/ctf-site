@@ -7,7 +7,12 @@ body{
     background-color: #141D2B;
     font-family: monospace;
 }
-
+.text_justify{
+    text-align: justify;
+}
+.brand_color{
+    color: #0f0;
+}
 .hero {
     position: relative;
     height: 100vh;
@@ -75,6 +80,7 @@ body{
     text-align: center;
     vertical-align: middle;
     line-height: 300px;
+    text-transform: uppercase;
 }
 
 .overview_cont p{
@@ -122,4 +128,25 @@ body{
 
 .pdb-35{
     padding: 35px !important;
+}
+
+/* About Part */
+
+.about{
+    padding: 50px 0px;
+}
+.about .about_title{
+    text-align: center;
+}
+.about_img{
+    margin-top: 100px;
+}
+
+.about_title h2{
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: auto 0px;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto 0px;
 }

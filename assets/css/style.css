@@ -11,7 +11,7 @@ body{
     text-align: justify;
 }
 .brand_color{
-    color: #0f0;
+    color: #0f0 !important;
 }
 .hero {
     position: relative;

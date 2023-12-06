@@ -66,3 +66,25 @@ function handleTickInit(tick) {
       // Add more responsive settings as needed for other breakpoints
   ]
   });
+
+  $(document).ready(function() {
+    var $backToTopBtn = $(".backToTop");
+
+    // Initially hide the button
+    $backToTopBtn.hide();
+
+    // Show or hide the button based on scroll position
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 200) {
+            $backToTopBtn.fadeIn();
+        } else {
+            $backToTopBtn.fadeOut();
+        }
+    });
+
+    // Scroll to the top when the button is clicked
+    $backToTopBtn.click(function() {
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
+});

@@ -305,3 +305,15 @@ body{
   }
 
   /* partner */
+
+
+  /* footer */
+
+  .social_icon ul{
+    list-style: none;
+    padding-left: 0px;
+  }
+  .social_icon ul li{
+    float: left;
+    margin-right: 30px;
+  }

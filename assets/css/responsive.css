@@ -1,0 +1,88 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .tick-group {
+        font-size: 30px;
+        margin: 0px 5px;
+    }
+    .smmb_10{
+        margin-bottom: 10px !important;
+    }
+    .hero {
+        height: 500px;
+    }
+
+    .baffle-text {
+        font-size: 30px;
+        top: 45%;
+        left: 33%;
+        transform: translate(-25%, -60%);
+    }
+    .overview{
+        padding-bottom: 40px;
+    }
+    .overview_title{
+        height: 50px;
+        margin-bottom: 20px;
+    }
+    .overview_title h2{
+        line-height: 50px;
+    }
+    .overview_cont p{
+        padding: 0px 18px;
+    }
+    .tick{
+        top: -65%;
+    }
+    .timer{
+        height: 40px;
+    }
+    .pd_18{
+        padding: 18px !important;
+    }
+    .event{
+        padding-bottom: 20px;
+    }
+    .event_details{
+        text-align: center;
+    }
+    .about{
+        padding: 25px 0px;
+    }
+    .mt_50,
+    .mtsm_0{
+        margin-top: 0px !important;
+    }
+    .box-item{
+        margin-bottom: 20px;
+    }
+    .partner, .prize_pool {
+        padding: 20px 0px;
+    }
+    .social_icon,
+    .footer_logo{
+        text-align: center;
+    }
+    .footer_content{
+        padding-bottom: 0px !important;
+    }
+    .social_icon{
+        display: flex;
+        justify-content: center;
+    }
+    .contact{
+        margin-top: 20px;
+        text-align: center !important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

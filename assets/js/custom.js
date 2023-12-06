@@ -14,6 +14,17 @@ function handleTickInit(tick) {
     arrows: false,
     autoplaySpeed: 1000,
     centerMode: true,
+    responsive: [
+      {
+          breakpoint: 599, // define the breakpoint for small devices
+          settings: {
+              slidesToShow: 1, // adjust the number of slides for small devices
+              centerMode: false // disable centerMode for small devices if needed
+              // add more settings as needed
+          }
+      }
+      // Add more responsive settings as needed for other breakpoints
+  ]
   });
 
   $('.gold_logo').slick({
@@ -23,6 +34,17 @@ function handleTickInit(tick) {
     arrows: false,
     autoplaySpeed: 1500,
     centerMode: true,
+    responsive: [
+      {
+          breakpoint: 599, // define the breakpoint for small devices
+          settings: {
+              slidesToShow: 1, // adjust the number of slides for small devices
+              centerMode: false // disable centerMode for small devices if needed
+              // add more settings as needed
+          }
+      }
+      // Add more responsive settings as needed for other breakpoints
+  ]
   });
 
   $('.silver_logo').slick({
@@ -31,5 +53,16 @@ function handleTickInit(tick) {
     autoplay: true,
     arrows: false,
     autoplaySpeed: 300,
-    centerMode: true
+    centerMode: true,
+    responsive: [
+      {
+          breakpoint: 599, // define the breakpoint for small devices
+          settings: {
+              slidesToShow: 1, // adjust the number of slides for small devices
+              centerMode: false // disable centerMode for small devices if needed
+              // add more settings as needed
+          }
+      }
+      // Add more responsive settings as needed for other breakpoints
+  ]
   });

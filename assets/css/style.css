@@ -158,7 +158,7 @@ body{
 }
 
 .pdb-35{
-    padding: 35px !important;
+    padding: 35px;
 }
 
 /* About Part */
@@ -184,6 +184,10 @@ body{
     vertical-align: middle;
     margin: auto 0px;
     color: #fff;
+}
+.event_details{
+  text-align: left;
+  margin-top: 20px;
 }
 
 /* Prize Pool */
@@ -309,9 +313,17 @@ body{
   }
 
   /* partner */
-
+.cntr{
+  display: flex !important;
+  justify-content: center !important;
+}
 
   /* footer */
+  .social_icon,
+  .footer_logo{
+    text-align: start;
+  }
+
 
   .social_icon ul{
     list-style: none;

@@ -9,9 +9,10 @@
     <title>Crack The Flag</title>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/animate.min.css" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/vendor/flip/flip.min.css" />
+    <link rel="stylesheet" href="assets/vendor/aos/aos.css">
+    <link rel="stylesheet" href="assets/vendor/slick/slick.css">
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
@@ -359,7 +360,7 @@
         <div class="row mt-5">
           
           <div class="col-md-4">
-            <div class="box-item mt_50">
+            <div class="box-item mt_50" data-aos="fade-up-right">
               <div class="flip-box">
                 <div class="flip-box-front text-center bg-dark" style="background-image: url('assets/images/front.jpg');">
                   <div class="inner text-light">
@@ -378,7 +379,7 @@
           </div>
 
           <div class="col-md-4">
-            <div class="box-item">
+            <div class="box-item" data-aos="fade-up">
               <div class="flip-box">
                 <div class="flip-box-front text-center bg-dark" style="background-image: url('assets/images/front.jpg');">
                   <div class="inner text-light">
@@ -397,7 +398,7 @@
           </div>
 
           <div class="col-md-4">
-            <div class="box-item mt_50">
+            <div class="box-item mt_50" data-aos="fade-up-left">
               <div class="flip-box">
                 <div class="flip-box-front text-center bg-dark" style="background-image: url('assets/images/front.jpg');">
                   <div class="inner text-light">
@@ -419,14 +420,33 @@
       </div>
     </section>
 
+    <section class="partner" id="partner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="partner_title">
+              <h2>Technical Partner</h2>
+            </div>
+            <div class="partner_logo">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Bootstrap JS (optional, if you need to use Bootstrap JavaScript features) -->
     <!-- jQuery (full version) -->
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
-
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/slick/slick.min.js"></script>
     <script src="assets/vendor/flip/flip.min.js"></script>
     <script src="assets/js/baffle.min.js"></script>
     <script src="assets/js/animation.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -3,6 +3,10 @@
     padding: 0px;
     outline: 0px;
 }
+a{
+    text-decoration: none;
+    
+}
 body{
     background-color: #141D2B;
     font-family: 'Courier New', Courier, monospace;

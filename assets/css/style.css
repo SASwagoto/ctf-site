@@ -70,6 +70,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    filter: drop-shadow(0px 0px 5px #0f0);
 }
 .custom_btn{
     position: absolute;
@@ -165,8 +166,10 @@ body{
     text-align: center;
 }
 .about_img{
-    margin-top: 100px;
+    margin-top: 30px;
+    text-align: center;
 }
+.section_header,
 .partner_title h2,
 .prize_pool h2,
 .about_title h2{

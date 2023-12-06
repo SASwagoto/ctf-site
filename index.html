@@ -1,295 +1,446 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Crack The Flag</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <title>Crack The Flag</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/vendor/flip/flip.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="assets/css/animate.min.css" />
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/vendor/flip/flip.min.css">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg_brand fixed-top">
+      <div class="container">
+        <!-- Logo on the left -->
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/images/ctf.png" alt="Your Logo" height="40" />
+        </a>
 
-</head>
+        <!-- Navbar toggle button for small screens -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-<body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg_brand fixed-top">
-    <div class="container">
-      <!-- Logo on the left -->
-      <a class="navbar-brand" href="index.html">
-        <img src="assets/images/ctf.png" alt="Your Logo" height="40" />
-      </a>
-
-      <!-- Navbar toggle button for small screens -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <!-- Navbar menu on the right -->
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html#overview">Overview</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html#timeline">Timeline</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Competition</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Prize Pool</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Organizer</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Sponsor</a>
-          </li>
-          <!-- Add more menu items as needed -->
-        </ul>
+        <!-- Navbar menu on the right -->
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#overview">Overview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#timeline">Timeline</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Competition</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Prize Pool</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Organizer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sponsor</a>
+            </li>
+            <!-- Add more menu items as needed -->
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <!-- Content goes here -->
-  <section class="hero text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12">
-          <div onmouseenter="revealAgain();">
-            <h1 class="baffle-text">Welcome to Crack The Flag CTF Contest-2024</h1>
+    <!-- Content goes here -->
+    <section class="hero text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div onmouseenter="revealAgain();">
+              <h1 class="baffle-text">
+                Welcome to Crack The Flag CTF Contest-2024
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="custom_btn">
+            <a class="btn btn_cstm btn-lg" href="#">Registration now</a>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="custom_btn">
-          <a class="btn btn_cstm btn-lg" href="#">Registration now</a>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Overview -->
-  <section class="overview" id="overview">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-4 col-sm-12">
-          <div class="overview_title">
-            <h2>Overview</h2>
+    <!-- Overview -->
+    <section class="overview" id="overview">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="overview_title">
+              <h2>Overview</h2>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-9 col-md-8 col-sm-12">
-          <div class="overview_cont">
-            <p>Cyber security is the application of technologies, processes, and controls to protect systems, networks,
-              programs, devices and data from cyber attacks. It aims to reduce the risk of cyber attacks and protect
-              against the unauthorised exploitation of systems, networks, and technologies. <br>
-              The world of Cyber Security revolves around the industry standard of confidentiality, integrity, and
-              availability, or CIA. Privacy means data can be accessed only by authorized parties; integrity means
-              information can be added, altered, or removed only by authorized users; and availability means systems,
-              functions, and data must be available on-demand according to agreed-upon parameters. <br>
-              The main element of Cyber Security is the use of authentication mechanisms. For example, a user name
-              identifies an account that a user wants to access, while a password is a mechanism that proves the user is
-              who he claims to be.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Time Line -->
-  <section class="timer" id="timeline">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12">
-          <div class="tick" data-did-init="handleTickInit">
-            <div data-repeat="true" data-layout="horizontal center fit" data-transform="preset(d, h, m, s) -> delay">
-              
-              <!-- Timer Group 1 -->
-              <div class="tick-group">
-                <div data-key="value" data-repeat="true" data-transform="pad(00) -> split -> delay">
-                  <span data-view="flip"></span>
-                </div>
-              </div>
-              <!-- Timer Group 2 -->
-              <div class="tick-group">
-                <div data-key="value" data-repeat="true" data-transform="pad(00) -> split -> delay">
-                  <span data-view="flip"></span>
-                </div>
-              </div>
-              <!-- Add more timer groups as needed -->
+          <div class="col-lg-9 col-md-8 col-sm-12">
+            <div class="overview_cont">
+              <p>
+                Cyber security is the application of technologies, processes,
+                and controls to protect systems, networks, programs, devices and
+                data from cyber attacks. It aims to reduce the risk of cyber
+                attacks and protect against the unauthorised exploitation of
+                systems, networks, and technologies. <br />
+                The world of Cyber Security revolves around the industry
+                standard of confidentiality, integrity, and availability, or
+                CIA. Privacy means data can be accessed only by authorized
+                parties; integrity means information can be added, altered, or
+                removed only by authorized users; and availability means
+                systems, functions, and data must be available on-demand
+                according to agreed-upon parameters. <br />
+                The main element of Cyber Security is the use of authentication
+                mechanisms. For example, a user name identifies an account that
+                a user wants to access, while a password is a mechanism that
+                proves the user is who he claims to be.
+              </p>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Event -->
-  <section class="event">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-8 com-sm-12">
-          <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-6">
-              <div class="card bg-dark text-light">
-                <div class="card-body pdb-35 text-center">
-                  <h5>Event Type</h5>
-                  <p class="mb-0 brand_color">Flag Hunt Contest</p>
+    <!-- Time Line -->
+    <section class="timer" id="timeline">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="tick" data-did-init="handleTickInit">
+              <div
+                data-repeat="true"
+                data-layout="horizontal center fit"
+                data-transform="preset(d, h, m, s) -> delay"
+              >
+                <!-- Timer Group 1 -->
+                <div class="tick-group">
+                  <div
+                    data-key="value"
+                    data-repeat="true"
+                    data-transform="pad(00) -> split -> delay"
+                  >
+                    <span data-view="flip"></span>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
-              <div class="card bg-dark text-light">
-                <div class="card-body pdb-35 text-center">
-                  <h5>Event Type</h5>
-                  <p class="mb-0 brand_color">Flag Hunt Contest</p>
+                <!-- Timer Group 2 -->
+                <div class="tick-group">
+                  <div
+                    data-key="value"
+                    data-repeat="true"
+                    data-transform="pad(00) -> split -> delay"
+                  >
+                    <span data-view="flip"></span>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
-              <div class="card bg-dark text-light">
-                <div class="card-body pdb-35 text-center">
-                  <h5>Event Type</h5>
-                  <p class="mb-0 brand_color">Flag Hunt Contest</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row mt-4">
-            <div class="col-lg-4 col-md-4 col-sm-6">
-              <div class="card bg-dark text-light">
-                <div class="card-body pdb-35 text-center">
-                  <h5>Event Type</h5>
-                  <p class="mb-0 brand_color">Flag Hunt Contest</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
-              <div class="card bg-dark text-light">
-                <div class="card-body pdb-35 text-center">
-                  <h5>Event Type</h5>
-                  <p class="mb-0 brand_color">Flag Hunt Contest</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
-              <div class="card bg-dark text-light">
-                <div class="card-body pdb-35 text-center">
-                  <h5>Event Type</h5>
-                  <p class="mb-0 brand_color">Flag Hunt Contest</p>
-                </div>
+                <!-- Add more timer groups as needed -->
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-4 com-sm-12">
-          <div class="card bg-dark text-light text-center">
-            <div class="card-header">
-              <h3>ABOUT THE EVENT
-                HUNT 2024</h3>
+      </div>
+    </section>
+
+    <!-- Event -->
+    <section class="event">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-8 com-sm-12">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="card bg-dark text-light">
+                  <div class="card-body pdb-35 text-center">
+                    <h5>Event Type</h5>
+                    <p class="mb-0 brand_color">Flag Hunt Contest</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="card bg-dark text-light">
+                  <div class="card-body pdb-35 text-center">
+                    <h5>Event Type</h5>
+                    <p class="mb-0 brand_color">Flag Hunt Contest</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="card bg-dark text-light">
+                  <div class="card-body pdb-35 text-center">
+                    <h5>Event Type</h5>
+                    <p class="mb-0 brand_color">Flag Hunt Contest</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="card bg-dark text-light">
+                  <div class="card-body pdb-35 text-center">
+                    <h5>Event Type</h5>
+                    <p class="mb-0 brand_color">Flag Hunt Contest</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="card bg-dark text-light">
+                  <div class="card-body pdb-35 text-center">
+                    <h5>Event Type</h5>
+                    <p class="mb-0 brand_color">Flag Hunt Contest</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="card bg-dark text-light">
+                  <div class="card-body pdb-35 text-center">
+                    <h5>Event Type</h5>
+                    <p class="mb-0 brand_color">Flag Hunt Contest</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 com-sm-12">
+            <div class="card bg-dark text-light text-center">
+              <div class="card-header">
+                <h3>ABOUT THE EVENT HUNT 2024</h3>
                 <h5 class="brand_color">January 20th - 29th, 2024</h5>
-            </div>
-            <div class="card-body pdb-35">
-              <h6 class="brand_color">Please read the instructions carefully and fill out the form.</h6>
-              <div class="event_details text-start mt-5">
-                <div class="mb-3">
-                  <p class="mb-1">PRE-QUALIFY ROUND</p>
-                  <strong class="brand_color">Saturday, January 20, 2024</strong>
-                </div>
-                <div class="mb-3">
-                  <p class="mb-1">FINAL ROUND</p>
-                  <strong class="brand_color">Monday, January 29, 2024</strong>
+              </div>
+              <div class="card-body pdb-35">
+                <h6 class="brand_color">
+                  Please read the instructions carefully and fill out the form.
+                </h6>
+                <div class="event_details text-start mt-5">
+                  <div class="mb-3">
+                    <p class="mb-1">PRE-QUALIFY ROUND</p>
+                    <strong class="brand_color"
+                      >Saturday, January 20, 2024</strong
+                    >
+                  </div>
+                  <div class="mb-3">
+                    <p class="mb-1">FINAL ROUND</p>
+                    <strong class="brand_color"
+                      >Monday, January 29, 2024</strong
+                    >
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- About -->
-  <section class="about" id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12">
-          <div class="about_title text-light">
-            <h2>About The Event</h2>
-            <h6 class="brand_color">A community of like minded individuals who support cybersecurity and FOSS.</h6>
-          </div>
-          <div class="about_img">
-            <img src="assets/images/UU.png" alt="uu" class="w-100">
-            <img src="assets/images/ctf.png" alt="ctf" class="w-100 mt-5">
-            
-          </div>
-        </div>
-        <div class="col-lg-8 col-md-8 col-sm-12">
-          <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <div class="card bg-dark text-light mb-3">
-                <div class="card-body">
-                  <h5>What is Capture the Flag?</h5>
-                  <p class="text_justify brand_color">A capture the flag (CTF) contest is a special kind of cybersecurity competition designed to challenge its participants to solve computer security problems and/or capture and defend computer systems. The game consists of a series of challenges where participants must reverse engineer, break, hack, decrypt, or do whatever it takes to solve the challenge. The challenges are all set up with the intent of being hacked, making it an excellent, legal way to get hands-on experience.</p>
-                </div>
-              </div>
-              <div class="card bg-dark text-light mb-3">
-                <div class="card-body">
-                  <h5>Who can play Crack The Flag?</h5>
-                  <p class="text_justify brand_color">Crack The Flag is mainly focused at students who are undergraduates.</p>
-                </div>
-              </div>
-              <div class="card bg-dark text-light">
-                <div class="card-body">
-                  <h5>Why Join?</h5>
-                  <p class="text_justify brand_color">Glory, learning, prizes</p>
-                  <h5>Hack amazing content</h5>
-                  <p class="text_justify brand_color">Learn with the best hacking content from the Bangladeshi CTF community!</p>
-                </div>
-              </div>
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="about_title text-light">
+              <h2>About The Event</h2>
+              <h6 class="brand_color">
+                A community of like minded individuals who support cybersecurity
+                and FOSS.
+              </h6>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <div class="card bg-dark text-light mb-3">
-                <div class="card-body">
-                  <h5>About Crack The Flag</h5>
-                  <p class="text_justify brand_color">Crack The Flag is a sub event of PICT's Impetus and Concepts mega event where students partcipate from all over the world! <br>
-                    Out aim is about spreading the importance of cybersecurity in today's community. Each and every person should be aware of different vulnerabilities in systems as well as how to protect onselves agains cyber attacks. <br>
-                    We believe gamification is the best technique to teach oneself about cybersecurity. o get hands-on experience.</p>
+            <div class="about_img">
+              <img src="assets/images/UU.png" alt="uu" class="w-100" />
+              <img src="assets/images/ctf.png" alt="ctf" class="w-100 mt-5" />
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-12">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="card bg-dark text-light mb-3">
+                  <div class="card-body">
+                    <h5>What is Capture the Flag?</h5>
+                    <p class="text_justify brand_color">
+                      A capture the flag (CTF) contest is a special kind of
+                      cybersecurity competition designed to challenge its
+                      participants to solve computer security problems and/or
+                      capture and defend computer systems. The game consists of
+                      a series of challenges where participants must reverse
+                      engineer, break, hack, decrypt, or do whatever it takes to
+                      solve the challenge. The challenges are all set up with
+                      the intent of being hacked, making it an excellent, legal
+                      way to get hands-on experience.
+                    </p>
+                  </div>
+                </div>
+                <div class="card bg-dark text-light mb-3">
+                  <div class="card-body">
+                    <h5>Who can play Crack The Flag?</h5>
+                    <p class="text_justify brand_color">
+                      Crack The Flag is mainly focused at students who are
+                      undergraduates.
+                    </p>
+                  </div>
+                </div>
+                <div class="card bg-dark text-light">
+                  <div class="card-body">
+                    <h5>Why Join?</h5>
+                    <p class="text_justify brand_color">
+                      Glory, learning, prizes
+                    </p>
+                    <h5>Hack amazing content</h5>
+                    <p class="text_justify brand_color">
+                      Learn with the best hacking content from the Bangladeshi
+                      CTF community!
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div class="card bg-dark text-light mb-3">
-                <div class="card-body">
-                  <h5>Win the best prizes</h5>
-                  <p class="text_justify brand_color">A never-seen-before prize list is awaiting the top teams!</p>
-                  <h5>Climb the scoreboard</h5>
-                  <p class="text_justify brand_color">Achieve eternal glory and show your team is the best!</p>
-                  <h5>Get CTF-Certified</h5>
-                  <p class="text_justify brand_color">For all players with 200+ points.</p>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="card bg-dark text-light mb-3">
+                  <div class="card-body">
+                    <h5>About Crack The Flag</h5>
+                    <p class="text_justify brand_color">
+                      Crack The Flag is a sub event of PICT's Impetus and
+                      Concepts mega event where students partcipate from all
+                      over the world! <br />
+                      Out aim is about spreading the importance of cybersecurity
+                      in today's community. Each and every person should be
+                      aware of different vulnerabilities in systems as well as
+                      how to protect onselves agains cyber attacks. <br />
+                      We believe gamification is the best technique to teach
+                      oneself about cybersecurity. o get hands-on experience.
+                    </p>
+                  </div>
+                </div>
+                <div class="card bg-dark text-light mb-3">
+                  <div class="card-body">
+                    <h5>Win the best prizes</h5>
+                    <p class="text_justify brand_color">
+                      A never-seen-before prize list is awaiting the top teams!
+                    </p>
+                    <h5>Climb the scoreboard</h5>
+                    <p class="text_justify brand_color">
+                      Achieve eternal glory and show your team is the best!
+                    </p>
+                    <h5>Get CTF-Certified</h5>
+                    <p class="text_justify brand_color">
+                      For all players with 200+ points.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Bootstrap JS (optional, if you need to use Bootstrap JavaScript features) -->
-  <!-- jQuery (full version) -->
-  <script src="assets/js/jquery-3.6.0.min.js"></script>
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <section class="prize_pool" id="prize">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="prize_title">
+              <h2>PRIZE POOL</h2>
+              <h6 class="brand_color">
+                A community of like minded individuals who support cybersecurity
+                and FOSS.
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          
+          <div class="col-md-4">
+            <div class="box-item">
+              <div class="flip-box">
+                <div class="flip-box-front text-center">
+                  <div class="inner color-white">
+                    <h3 class="flip-box-header">Never Sleeps</h3>
+                    <p>A short sentence describing this callout is.</p>
+                    <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" class="flip-box-img">
+                  </div>
+                </div>
+                <div class="flip-box-back text-center" style="background-image: url('assets/images/flip_card_bg.jpg');">
+                  <div class="inner color-white">
+                    <h3 class="flip-box-header">Never Sleeps</h3>
+                    <p>A short sentence describing this callout is.</p>
+                    <button class="flip-box-button">Learn More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-  <script src="assets/vendor/flip/flip.min.js"></script>
-  <script src="assets/js/baffle.min.js"></script>
-  <script src="assets/js/animation.js"></script>
-  <script src="assets/js/custom.js"></script>
-</body>
+          <div class="col-md-4">
+            <div class="box-item">
+              <div class="flip-box">
+                <div class="flip-box-front text-center" style="background-image: url('https://s25.postimg.cc/hj4c4qnov/cta-3.png');">
+                  <div class="inner color-white">
+                    <h3 class="flip-box-header">Never Sleeps</h3>
+                    <p>A short sentence describing this callout is.</p>
+                    <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" class="flip-box-img">
+                  </div>
+                </div>
+                <div class="flip-box-back text-center" style="background-image: url('https://s25.postimg.cc/hj4c4qnov/cta-3.png');">
+                  <div class="inner color-white">
+                    <h3 class="flip-box-header">Never Sleeps</h3>
+                    <p>A short sentence describing this callout is.</p>
+                    <button class="flip-box-button">Learn More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-md-4">
+            <div class="box-item">
+              <div class="flip-box">
+                <div class="flip-box-front text-center" style="background-image: url('https://s25.postimg.cc/hj4c4qnov/cta-3.png');">
+                  <div class="inner color-white">
+                    <h3 class="flip-box-header">Never Sleeps</h3>
+                    <p>A short sentence describing this callout is.</p>
+                    <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" class="flip-box-img">
+                  </div>
+                </div>
+                <div class="flip-box-back text-center" style="background-image: url('https://s25.postimg.cc/hj4c4qnov/cta-3.png');">
+                  <div class="inner color-white">
+                    <h3 class="flip-box-header">Never Sleeps</h3>
+                    <p>A short sentence describing this callout is.</p>
+                    <button class="flip-box-button">Learn More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS (optional, if you need to use Bootstrap JavaScript features) -->
+    <!-- jQuery (full version) -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/vendor/flip/flip.min.js"></script>
+    <script src="assets/js/baffle.min.js"></script>
+    <script src="assets/js/animation.js"></script>
+    <script src="assets/js/custom.js"></script>
+  </body>
 </html>

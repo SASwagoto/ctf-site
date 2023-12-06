@@ -11,6 +11,9 @@ body{
 .bg_brand{
     background-color: #141D2B;
 }
+.bg-dark{
+    background-color: #111927 !important;
+}
 .text_justify{
     text-align: justify;
 }

@@ -94,7 +94,6 @@ body{
     padding-bottom: 100px;
     color: #fff;
 }
-.prize_pool,
 .overview_title{
     text-align: center;
     height: 200px;
@@ -168,7 +167,7 @@ body{
 .about_img{
     margin-top: 100px;
 }
-
+.partner_title h2,
 .prize_pool h2,
 .about_title h2{
     text-transform: uppercase;
@@ -181,9 +180,10 @@ body{
 }
 
 /* Prize Pool */
-
+.partner,
 .prize_pool{
     padding: 50px 0px;
+
 }
 
 .box-item {
@@ -300,3 +300,5 @@ body{
     padding: 15px 20px;
     text-transform: uppercase;
   }
+
+  /* partner */

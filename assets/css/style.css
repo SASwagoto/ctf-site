@@ -160,8 +160,8 @@ body{
     padding-bottom: 40px;
 }
 
-.pdb-35{
-    padding: 35px;
+.pdb_25{
+    padding: 25px;
 }
 
 /* About Part */
@@ -176,7 +176,7 @@ body{
     margin-top: 30px;
     text-align: center;
 }
-.section_header,
+.section_header h2,
 .partner_title h2,
 .prize_pool h2,
 .about_title h2{
@@ -319,6 +319,16 @@ body{
 .cntr{
   display: flex !important;
   justify-content: center !important;
+}
+
+.section_header{
+  margin-bottom: 40px;
+}
+.clng_content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
   /* footer */
